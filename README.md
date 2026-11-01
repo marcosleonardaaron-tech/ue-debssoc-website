@@ -1,30 +1,35 @@
-# UE Debate and Speech Society Website
+# UE DebSSoc — Canva-Inspired Website (2026–2027)
 
-A lightweight, mobile-responsive website built entirely in HTML, CSS and JavaScript. No framework, npm, hosting bill, or build step is required.
+This is a hand-coded responsive website based on the visual structure and wording of the Canva design *UE DebSSoc • Editable Website Layout 2026–2027 (Website)*. It is independently editable with HTML, CSS and JavaScript and can be published with GitHub Pages.
 
-## Files
-- `index.html`: homepage with Home, About, Programs, Featured Events, External Engagements, Membership, Contact Us
-- `debate.html`: Debate & Argumentation
-- `speech.html`: Speech & Oratory
-- `leadership.html`: Leadership & Communication
-- `styles.css`: colors, type, spacing and responsiveness
-- `script.js`: mobile/desktop hamburger menu, email copy, copyright year
+## What is included
+- `index.html` — Home, About, Programs, Featured Event, Gallery, External Engagements, Membership, Contact
+- `debate.html`, `speech.html`, `leadership.html` — separate working program pages
+- `styles.css` — fonts, layout, mobile styling, colors
+- `script.js` — functional hamburger navigation, email copy, and photo loading
+- `images/debssoc-logo.png` and `images/ue-logo.png` — organization and university logos
 
-## Editing
-- Change words: open the corresponding `.html` file in GitHub.dev.
-- Change colors: open `styles.css` and edit the values under `:root`.
-- Change contact email: search all files for `uedebssoc.mnl@gmail.com`.
-- Add real logo or photos: upload them to a folder like `images/` and insert an `<img src="images/yourphoto.jpg" alt="Describe your photo">` element. You can replace decorative illustration blocks.
-- Add official Facebook/Instagram links only when verified.
-- Add a membership form URL by replacing the `mailto:` button in the membership section.
-- Events: update dates before public launch; the Voice of Valor date here is January 2027, exact dates TBA.
+## Update your live GitHub Pages site
+1. Download the ZIP and extract it.
+2. Open your repository on github.com (NOT github.dev).
+3. Use **Add file → Upload files**, select the six website files (`index.html`, `debate.html`, `speech.html`, `leadership.html`, `styles.css`, `script.js`) and commit the changes. They should replace the root-level files. Do not delete your existing images folder.
+4. The two logos are already in your GitHub repository if you followed the prior instructions. If not, upload them to the `images` folder with these exact filenames.
+5. Open your GitHub Pages site and hard-refresh (`Ctrl + Shift + R`) after deployment.
 
-## Publish for free using GitHub Pages
-1. Upload the website files to the root of your public GitHub repository.
-2. On github.com: repository **Settings** > **Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select branch **main**, folder **/(root)** and click **Save**.
-5. Your website URL will be `https://marcosleonardaaron-tech.github.io/ue-debssoc-website/` once deployed.
+## Add real photos — without editing code!
+Open your repository's `images/` folder, click **Add file → Upload files**, upload an image with the filename below, then commit. The website loads it automatically where the placeholder is.
 
-## Important
-This site is a starter. Confirm all organization information, eligibility, dates, application details, branding, and event announcements before publishing. The contact section uses email, not a hosted server-side form. GitHub Pages is static hosting.
+- `hero-photo.jpg` — homepage hero photograph
+- `society-photo.jpg` — About Us picture
+- `voice-of-valor-poster.jpg` — event poster
+- `gallery-1.jpg` through `gallery-6.jpg` — gallery pictures
+
+For the gallery, crop images to a landscape 4:3 ratio for best results. Images should be compressed (preferably under 500 KB each) to help slower devices. If the filenames do not match exactly, the placeholders remain visible.
+
+## To edit text
+- Main webpage: edit `index.html`
+- Programs: edit `debate.html`, `speech.html`, `leadership.html`
+- Colors/layout: edit `styles.css`
+- Links/menu: edit `index.html` and the subpage files
+
+**Important:** Membership links currently open an email inquiry (not a registration form). Update the site with your verified membership application link when available. The exact date for Voice of Valor January 2027 is intentionally marked TBA. University/organization recognition is stated as supplied by the organization; this site is student-managed.
